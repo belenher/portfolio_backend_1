@@ -14,7 +14,7 @@ public class Experiencia {
     private String nombreE;
     private String descripcionE;
     
-    //Constructores
+ //constructores   
 
     public Experiencia() {
     }
@@ -24,7 +24,7 @@ public class Experiencia {
         this.descripcionE = descripcionE;
     }
     
-    //Getters and setters
+    //getters and setters
 
     public int getId() {
         return id;
@@ -49,5 +49,5 @@ public class Experiencia {
     public void setDescripcionE(String descripcionE) {
         this.descripcionE = descripcionE;
     }
-    
+      
 }
